@@ -22,8 +22,8 @@ composer.command('start', ctx => {
     `If you like this bot consider adding a star to the <a href="https://github.com/ArnabXD/TGVCBot">repository</a>`;
   return ctx.reply(text, {
     reply_markup: new InlineKeyboard().url(
-      'View Source',
-      'https://github.com/ArnabXD/TGVCBot',
+      'OWNER',
+      'https://t.me/abhinasroy',
     ),
     disable_web_page_preview: true,
     parse_mode: 'HTML',
