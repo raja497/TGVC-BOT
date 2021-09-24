@@ -16,7 +16,7 @@ const composer = new Composer();
 
 export default composer;
 
-composer.command(['youtube', 'yt'], async (ctx) => {
+composer.command(['play', 'yt'], async (ctx) => {
   await ctx.api.sendChatAction(ctx.chat.id, 'typing');
 
   if (ctx.chat.type === 'private')
