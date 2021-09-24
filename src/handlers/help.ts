@@ -7,8 +7,8 @@ export default composer;
 const help =
   `*Commands Available :*\n\n` +
   `/jiosaavn or /jsvn : Play songs from JioSaavn\n` +
-  `/youtube or /yt : Play songs from YouTube\n` +
-  `/play : Reply this command to audio files to play the file\n` +
+  `/play or /yt : Play songs from YouTube\n` +
+  `/splay : Reply this command to audio files to play the file\n` +
   `/queue or /q : Check queued songs list\n` +
   `/p : Pause the stream\n` +
   `/r : Resume the stream\n` +
