@@ -14,7 +14,7 @@ const composer = new Composer();
 
 export default composer;
 
-composer.command(['play', 'pl'], async ctx => {
+composer.command(['splay', 'pl'], async ctx => {
   await ctx.api.sendChatAction(ctx.chat.id, 'typing');
 
   if (ctx.chat.type === 'private')
@@ -35,7 +35,7 @@ composer.command(['play', 'pl'], async ctx => {
       duration: message.audio!.duration.toString(),
       image:
         message.audio!.thumb?.file_id ??
-        `https://telegra.ph/file/6b07279fd80ef2b844ed0.png`,
+        `https://telegra.ph/file/4cd4cdbcdd77a1ab758b2.png`,
       artist: message.audio!.performer ?? 'TGVCBot',
       link: getMessageLink(ctx.chat.id, message.message_id),
       mp3_link: message.audio!.file_id,
